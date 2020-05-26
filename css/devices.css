@@ -1,0 +1,111 @@
+/*iPad*/
+@media (min-width: 430px) and (max-width: 768px) {
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url(../images/9_768.jpg);
+    background-repeat: no-repeat;
+    padding-top: 360px;
+  }
+  html body figure {
+    font-size: 26px;
+  }
+  html body figure img {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html body h1 {
+    font-size: 60px;
+  }
+  html body h2 {
+    font-size: 34px;
+  }
+  html body h3 {
+    font-size: 40px;
+  }
+  html body h4 {
+    font-size: 36px;
+  }
+  html body p {
+    font-size: 32px;
+  }
+  html body ul {
+    font-size: 32px;
+  }
+  html body blockquote {
+    font-size: 30px;
+  }
+}
+
+/*iPhone 6,7,8*/
+@media (max-width: 420px) {
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url(../images/9_375.jpg);
+    background-repeat: no-repeat;
+    padding-top: 113px;
+    overflow-x: hidden;
+  }
+  html body figure {
+    font-size: 13px;
+  }
+  html body figure img {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html body h1 {
+    font-size: 50px;
+  }
+  html body h2 {
+    font-size: 20px;
+  }
+  html body h3 {
+    font-size: 24px;
+  }
+  html body h4 {
+    font-size: 21px;
+  }
+  html body p {
+    font-size: 16px;
+  }
+  html body ul {
+    font-size: 16px;
+  }
+  html body blockquote {
+    font-size: 17px;
+  }
+}
+
+/*PC*/
+@media (min-width: 769px) and (max-width: 1920px) {
+  body {
+    width: 960px;
+    overflow-x: hidden;
+    background-image: url(../images/9_1080.jpg);
+    background-repeat: no-repeat;
+    padding-top: 480px;
+  }
+  body figure img {
+    width: 70%;
+    height: 70%;
+  }
+  body h1 {
+    font-size: 60px;
+  }
+}
+/*# sourceMappingURL=devices.css.map */

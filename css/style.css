@@ -1,0 +1,177 @@
+/*iPad*/
+@media (min-width: 430px) and (max-width: 768px) {
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url(../images/9_768.jpg);
+    background-repeat: no-repeat;
+    padding-top: 360px;
+  }
+  html body figure {
+    font-size: 26px;
+  }
+  html body figure img {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html body h1 {
+    font-size: 60px;
+  }
+  html body h2 {
+    font-size: 34px;
+  }
+  html body h3 {
+    font-size: 40px;
+  }
+  html body h4 {
+    font-size: 36px;
+  }
+  html body p {
+    font-size: 32px;
+  }
+  html body ul {
+    font-size: 32px;
+  }
+  html body blockquote {
+    font-size: 30px;
+  }
+}
+
+/*iPhone 6,7,8*/
+@media (max-width: 420px) {
+  html {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url(../images/9_375.jpg);
+    background-repeat: no-repeat;
+    padding-top: 113px;
+    overflow-x: hidden;
+  }
+  html body figure {
+    font-size: 13px;
+  }
+  html body figure img {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  html body h1 {
+    font-size: 50px;
+  }
+  html body h2 {
+    font-size: 20px;
+  }
+  html body h3 {
+    font-size: 24px;
+  }
+  html body h4 {
+    font-size: 21px;
+  }
+  html body p {
+    font-size: 16px;
+  }
+  html body ul {
+    font-size: 16px;
+  }
+  html body blockquote {
+    font-size: 17px;
+  }
+}
+
+/*PC*/
+@media (min-width: 769px) and (max-width: 1920px) {
+  body {
+    width: 960px;
+    overflow-x: hidden;
+    background-image: url(../images/9_1080.jpg);
+    background-repeat: no-repeat;
+    padding-top: 480px;
+  }
+  body figure img {
+    width: 70%;
+    height: 70%;
+  }
+  body h1 {
+    font-size: 60px;
+  }
+}
+
+html {
+  background-image: url(../images/back_body.png);
+  font-family: Arial;
+}
+
+html body {
+  margin: 0 auto;
+  background-color: white;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+html body figure {
+  text-align: center;
+}
+
+html body div {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 80px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0;
+          box-shadow: rgba(0, 0, 0, 0.8) 0 1px 0;
+}
+
+html body h1 {
+  color: black;
+  text-align: center;
+  padding: 5px 5px;
+  text-shadow: blanchedalmond 2px 2px 2px;
+}
+
+html body h2 {
+  font-style: italic;
+  margin: 20px 25px 0 30px;
+  padding-top: 20px;
+}
+
+html body h3 {
+  font-style: italic;
+  border-bottom: 2px solid darkslateblue;
+  margin: 20px 25px 0 30px;
+  padding-top: 20px;
+  color: darkblue;
+}
+
+html body h4 {
+  font-style: italic;
+  margin: 20px 25px 0 30px;
+  color: orangered;
+}
+
+html body p, html body ul {
+  font-style: italic;
+  padding: 0 30px 0px 40px;
+  text-align: justify;
+}
+
+html body blockquote {
+  font-style: italic;
+  padding: 0 30px 0 30px;
+}
+
+html body .achievements {
+  color: darkred;
+}
+/*# sourceMappingURL=style.css.map */
